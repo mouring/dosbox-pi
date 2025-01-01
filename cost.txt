@@ -1,0 +1,16 @@
+— For 8 : $713 (3d printed case) -  $904 (w/ k/m)
+$65 - Pi 4 B
+$8 - Case
+$7 - Power supply 
+$11 - Micro HDMI to VGA (or Micro HDMI to DVI)
+$6 - 32gb Micro SD
+$16 - USB Keyboard / USB Mouse 
+— $113
+
+— OR — For 8: $804
+$70 -  Pi 400 (includes keyboard)
+$7 - Power supply 
+$11 - Micro HDMI to VGA (or Micro HDMI to DVI)
+$6 - 32gb Micro SD
+$9 - mouse
+— $102 
