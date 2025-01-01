@@ -1,0 +1,40 @@
+[dosbox]
+title                                           = "Warcraft 1"
+fastbioslogo                                    = true
+disable graphical splash                        = true
+startbanner                                     = false
+bannercolortheme                                = default
+reboot delay                                    = -1
+
+[cpu]
+core                                            = normal
+fpu                                             = true
+cycles                                          = 10000
+
+[log]
+logfile = dosbox.debug
+
+[xne2000]
+ne2000  = true
+nicbase = 300
+nicirq  = 10
+macaddr = random
+backend = pcap
+
+[xethernet, pcap]
+realnic = list
+timeout = default
+
+[xautoexec]
+@echo off
+mount c ~/DOSBox/Warcraft_1/game
+path %path;c:\ipx
+c:
+cd \ipx
+lsl
+ne2000
+ipxodi
+netbios
+cd \war
+war.exe
+exit
